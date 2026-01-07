@@ -1,0 +1,17 @@
+{
+  "master": {
+    "gain_q15": 29491
+  },
+  "distortion": {
+    "dist_drive_q8": 8022
+  },
+  "delay": {
+    "delay_mix_q15": 13304,
+    "delay_feedback_q15": 29280
+  },
+  "reverb": {
+    "reverb_mix_q15": 32646,
+    "reverb_feedback_q15": 20500,
+    "reverb_damp_q15": 22505
+  }
+}
