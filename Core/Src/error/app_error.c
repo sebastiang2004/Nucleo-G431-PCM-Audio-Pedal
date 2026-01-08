@@ -1,4 +1,4 @@
-#include "app_error.h"
+#include "error/app_error.h"
 #include "stm32g4xx_hal.h"
 
 void AppError_BlinkForever(void)

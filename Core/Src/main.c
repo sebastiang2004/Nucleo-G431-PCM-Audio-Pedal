@@ -22,10 +22,10 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
-#include "app_audio.h"
-#include "app_com.h"
-#include "app_dsp.h"
-#include "app_error.h"
+#include "audio/app_audio.h"
+#include "communication/app_com.h"
+#include "dsp/app_dsp.h"
+#include "error/app_error.h"
 
 /* USER CODE END Includes */
 

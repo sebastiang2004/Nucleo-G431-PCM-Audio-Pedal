@@ -1,4 +1,5 @@
-dsp\ legacy/app_audio.o: ..\Core\Src\app_audio.c ..\Core\Inc\app_audio.h \
+dsp\ legacy/app_audio.o: ..\Core\Src\audio\app_audio.c \
+  ..\Core\Inc\audio\app_audio.h ..\Core\Inc\main.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h \
   ..\Core\Inc\stm32g4xx_hal_conf.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h \
@@ -25,4 +26,4 @@ dsp\ legacy/app_audio.o: ..\Core\Src\app_audio.c ..\Core\Inc\app_audio.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h \
-  ..\Core\Inc\main.h ..\Core\Inc\app_dsp.h
+  ..\Core\Inc\dsp\app_dsp.h

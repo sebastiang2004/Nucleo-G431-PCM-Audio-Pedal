@@ -403,17 +403,42 @@
             <File>
               <FileName>app_audio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../Core/Src/app_audio.c</FilePath>
+              <FilePath>../Core/Src/audio/app_audio.c</FilePath>
             </File>
             <File>
               <FileName>app_dsp.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../Core/Src/app_dsp.c</FilePath>
+              <FilePath>../Core/Src/dsp/app_dsp.c</FilePath>
+            </File>
+            <File>
+              <FileName>dsp_filters.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Core/Src/dsp/dsp_filters.c</FilePath>
+            </File>
+            <File>
+              <FileName>dsp_distortion.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Core/Src/dsp/dsp_distortion.c</FilePath>
+            </File>
+            <File>
+              <FileName>dsp_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Core/Src/dsp/dsp_delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>dsp_reverb.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Core/Src/dsp/dsp_reverb.c</FilePath>
             </File>
             <File>
               <FileName>app_error.c</FileName>
               <FileType>1</FileType>
-              <FilePath>../Core/Src/app_error.c</FilePath>
+              <FilePath>../Core/Src/error/app_error.c</FilePath>
+            </File>
+            <File>
+              <FileName>app_com.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Core/Src/communication/app_com.c</FilePath>
             </File>
             <File>
               <FileName>stm32g4xx_it.c</FileName>
@@ -514,6 +539,16 @@
               <FileName>stm32g4xx_hal_cortex.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32g4xx_hal_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32g4xx_hal_uart_ex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c</FilePath>
             </File>
           </Files>
         </Group>

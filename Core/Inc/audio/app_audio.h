@@ -12,6 +12,7 @@ void AppAudio_Init(I2S_HandleTypeDef *rx_i2s, I2S_HandleTypeDef *tx_i2s);
 void AppAudio_Start(void);
 
 uint8_t AppAudio_StartFailed(void);
+uint8_t AppAudio_RuntimeFailed(void);
 
 void AppAudio_OnRxHalfCplt(I2S_HandleTypeDef *hi2s);
 void AppAudio_OnRxCplt(I2S_HandleTypeDef *hi2s);

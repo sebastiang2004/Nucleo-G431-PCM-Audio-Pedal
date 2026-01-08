@@ -1,10 +1,10 @@
-#include "app_audio.h"
+#include "audio/app_audio.h"
 
 #include "main.h"
 
 #include <string.h>
 
-#include "app_dsp.h"
+#include "dsp/app_dsp.h"
 
 /*
  * This file contains the "audio IO glue":

@@ -1,4 +1,5 @@
-dsp\ legacy/app_error.o: ..\Core\Src\app_error.c ..\Core\Inc\app_error.h \
+dsp\ legacy/app_error.o: ..\Core\Src\error\app_error.c \
+  ..\Core\Inc\error\app_error.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal.h \
   ..\Core\Inc\stm32g4xx_hal_conf.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_rcc.h \

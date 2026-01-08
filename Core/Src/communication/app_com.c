@@ -1,4 +1,4 @@
-#include "app_com.h"
+#include "communication/app_com.h"
 
 #include <ctype.h>
 #include <stdbool.h>
@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "app_dsp.h"
+#include "dsp/app_dsp.h"
 
 /* TX is interrupt-driven to avoid stalling the MCU when the host sends a lot
  * of commands (PSET/FXMASK). Replies are enqueued into a ring buffer and

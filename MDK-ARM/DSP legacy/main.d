@@ -25,5 +25,5 @@ dsp\ legacy/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_tim_ex.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_hal_uart_ex.h \
-  ..\Core\Inc\app_audio.h ..\Core\Inc\app_com.h ..\Core\Inc\app_dsp.h \
-  ..\Core\Inc\app_error.h
+  ..\Core\Inc\audio\app_audio.h ..\Core\Inc\communication\app_com.h \
+  ..\Core\Inc\dsp\app_dsp.h ..\Core\Inc\error\app_error.h
