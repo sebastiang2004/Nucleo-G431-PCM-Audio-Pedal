@@ -1,6 +1,6 @@
 ## Concept proiect
 
-> Conceptul proiectului este de a prelua un semnal de la un instrument(un semnal analogic) si de a aplica un efect(modifica semnalul) prin intermediul unui micrcontroller si de a reda la iesire semnalul modificat.
+> Conceptul proiectului este de a prelua un semnal de la un instrument(un semnal analogic) si de a aplica un efect(modifica semnalul) prin intermediul unui microntroller si de a reda la iesire semnalul modificat.
 >
 > Texas Instruments a prezentat aceasta idee in 2006 in aceasta schema bloc:
 
